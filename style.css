@@ -1,0 +1,89 @@
+
+
+.heading {
+  text-align: center;
+}
+
+.intro {
+  margin: 1.5rem;
+  border-style: hidden;
+  text-align: center;
+  font-size: 20px;
+}
+
+.statements {
+  margin-top: 4rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-style: dashed;
+}
+.statements h3 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.statements p {
+  font-size: large;
+  text-align: center;
+}
+
+.code-example {
+  background-color: azure;
+  margin-left: 18rem;
+  margin-right: 18rem;
+}
+
+.keywords {
+  display: flex;
+  flex-direction: row;
+}
+
+.key,
+.words {
+  display: inline-block;
+  margin: 5px;
+}
+ .keywordalign{
+    background-color: azure;
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+
+ .console{
+    text-align: center;
+    background-color:darkgray;
+    margin-left: 15rem;
+    margin-right: 15rem;
+ }
+
+ .console span{
+    font-weight: lighter;
+ }
+
+
+ .operators {
+  display: flex;
+}
+
+.opstatements {
+  display: inline-flex;
+  flex-direction: column;
+  border-style: dashed;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-right: 30px;
+}
+
+.opcode-example {
+  font-family: monospace;
+  white-space: pre-line;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+footer {
+  background-color: lightgray;
+}
